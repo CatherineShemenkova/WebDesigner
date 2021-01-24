@@ -1,0 +1,48 @@
+@media (max-width: 768px) {
+    header,
+    .main-page {
+        max-width: 760px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .header__menu {
+        padding: 35px 0 10px;
+    }
+
+    .menu__hidden-block {
+        display: block;
+    }
+
+    .servise__wrapper {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .servise__item {
+        flex-basis: 48%;
+        margin-bottom: 10px;
+    }
+
+    .servise__item:last-child,
+    .skills__item:last-child {
+        margin-bottom: 0;
+    }
+
+    .skills__wrapper,
+    .educ-exp__wrapper {
+        flex-direction: column;
+    }
+
+    .skills__item {
+        width: 100%;
+        margin-bottom: 3em;
+    }
+
+    .education__wrapper,
+    .experience__wrapper {
+        width: 100%;
+    }
+}

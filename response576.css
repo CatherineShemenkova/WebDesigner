@@ -1,0 +1,30 @@
+@media (max-width: 576px) {
+    html {
+        font-size: 14px;
+    }
+
+    header,
+    .main-page {
+        max-width: 570px;
+    }
+
+    .servise__item {
+        flex-basis: 95%;
+    }
+
+   img {
+       width: 175px;
+   }
+
+    .contact__wrapper {
+        flex-direction: column;
+    }
+
+    .contact__info {
+        width: 100%;
+    }
+
+    .contact__submit-button {
+        width: 98%;
+    }
+}

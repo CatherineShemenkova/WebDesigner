@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+
+    <title>Creative Web Designer</title>
+    <link rel="stylesheet" type="text/css" href="main.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="response992.css">
+    <link rel="stylesheet" type="text/css" href="response768.css">
+    <link rel="stylesheet" type="text/css" href="response576.css">
+    <link rel="stylesheet" type="text/css" href="response-less576.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e7551f76bf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="header">
+        <div class="header__menu menu">
+            <nav class="menu__nav">
+                <ul class="menu__list wrapper">
+                    <li><a class="menu__point" href="#home">Home</a></li>
+                    <li><a class="menu__point" href="#home">About</a></li>
+                    <li><a class="menu__point" href="#servisec">Services</a></li>
+                    <li class="menu__point menu__point_dropdown-list">Dropdown<i class="fas fa-chevron-down"></i>
+                        <ul class="menu__dropdown">
+                            <li><a class="menu__point menu__dropdown-point" href="#skills">My Skills</a></li>
+                            <li><a class="menu__point menu__dropdown-point" href="#education">Education and Experience</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="menu__point" href="#projects">Projects</a></li>
+                    <li><a class="menu__point" href="#contact">Contact Me</a></li>
+                </ul>
+            </nav>
+            <div class="menu__follow-icons">
+                <i class="fab fa-header fa-facebook-f"></i>
+                <i class="fab fa-header fa-instagram"></i>
+                <i class="fab fa-header fa-twitter"></i>
+                <i class="fab fa-header fa-pinterest"></i>
+            </div>
+            <div class="menu__hidden-block">
+                <button id="menu-button" class="menu__hidden-button"><i class="fas fa-bars fa-2x"></i></button>
+            </div>
+            <ul id="hidden-menu" class="menu__hidden-dropdown">
+                <li><a class="menu__point menu__dropdown-point" href="#skills">Home</a></li>
+                <li><a class="menu__point menu__dropdown-point" href="#skills">About</a></li>
+                <li><a class="menu__point menu__dropdown-point" href="#skills">Services</a></li>
+                <li><a class="menu__point menu__dropdown-point" href="#skills">My Skills</a></li>
+                <li><a class="menu__point menu__dropdown-point" href="#skills">Education And Experience</a></li>
+                <li><a class="menu__point menu__dropdown-point" href="#skills">Projects</a></li>
+                <li><a class="menu__point menu__dropdown-point" href="#skills">Contact me</a></li>
+            </ul>
+        </div>
+        <div class="header__title">
+            <i class="far fa-gem"></i>Creative Profile
+        </div>
+    </header>
+    <!--header-->
+    <main id="home" class="main-page">
+        <section class="main-page__intro intro">
+            <div class="intro__info">
+                <h1 class="intro__head"><span class="intro__head_font-weight-200">Hi. I'm</span><br>
+                Web Designer</h1>
+                <p class="intro__desc">
+                    Integer porttitor mollisar lorem, at molestie arcu pulvinar ut. Proin ac fermentum est. Cras mi
+                    ipsum, consectetur. Integer at tellus in ex iaculis accumsan nec tristique justo. Aliquam dapibus
+                    iaculis enim, a dapibus nibh convallis scelerisque.
+                </p>
+                <button class="intro__button">Read More</button>
+            </div>
+        </section>
+        <!--intro-->
+        <section id="servisec" class="main-page__servisec servise main-page_padding-4em-5em">
+            <h2 class="servise__head head">Servisec<span class="head_underline"></span></h2>
+            <div class="servise__wrapper wrapper">
+                <div class="servise__item item">
+                    <i class="fas fa-servise fa-tv fa-2x"></i>
+                    <h3 class="item__head">Designing</h3>
+                    <p class="item__desc">
+                        Proina fermentum eset sed. Cras mist ipsum, dolor et consectetur ipsum.
+                    </p>
+                </div>
+                <div class="servise__item item">
+                    <i class="fas fa-servise fa-edit fa-2x"></i>
+                    <h3 class="item__head">Developing</h3>
+                    <p class="item__desc">
+                        Proina fermentum eset sed. Cras mist ipsum, dolor et consectetur ipsum.
+                    </p>
+                </div>
+                <div class="servise__item item">
+                    <i class="far fa-servise fa-window-restore fa-2x"></i>
+                    <h3 class="item__head">Responsive</h3>
+                    <p class="item__desc">
+                        Proina fermentum eset sed. Cras mist ipsum, dolor et consectetur ipsum.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!--services-->
+        <section id="skills" class="main-page__skills skills main-page_padding-4em-5em">
+            <h2 class="skills__head head">My Skills<span class="head_underline"></span></h2>
+            <div class="skills__wrapper wrapper">
+                <div class="skills__item item">
+                    <p class="item__desc">
+                        Proina fermentum eset sed. Cras mist ipsum, dolor et consectetur ipsum cras mist ipsum dolor sit amet.
+                    </p>
+                    <div class="item__wrapper">
+                        <h4 class="item__head item__head_no-padding-bottom">Web Designing - 90%</h4>
+                        <span class="item__scale item__scale_width90-bgcolor-pink"></span>
+                    </div>
+                    <div class="item__wrapper">
+                        <h4 class="item__head item__head_no-padding-bottom">Responsive Design - 85%</h4>
+                        <span class="item__scale item__scale_width85-bgcolor-lightblue" style=""></span>
+                    </div>
+                    <div class="item__wrapper">
+                        <h4 class="item__head item__head_no-padding-bottom">Mobile Apps - 70%</h4>
+                        <span class="item__scale item__scale_width70-bgcolor-blue"></span>
+                    </div>
+                </div>
+                <div class="skills__item item">
+                    <div class="item__wrapper wrapper wrapper_space-around item__wrapper_text-align-center">
+                        <div class="item__block">
+                            <i class="fas fa-skills fa-briefcase fa-2x"></i>
+                            <p class="item__info">10</p>
+                            <p>Experience</p>
+                        </div>
+                        <div class="item__block">
+                            <i class="fas fa-skills fa-window-restore fa-2x"></i>
+                            <p class="item__info">250+</p>
+                            <p>Projects</p>
+                        </div>
+                        <div class="item__block">
+                            <i class="fas fa-skills fa-trophy fa-2x"></i>
+                            <p class="item__info">150</p>
+                            <p>Awards</p>
+                        </div>
+                    </div>
+                    <p class="item__desc item__desc_padding-top">
+                        Nulla pellentesque mi non laoreet eleifend. Integer sed porttitor mollisar lorem, at molestie
+                        arcust pulvinar ut. Proina fermentum est cras mist ipsum..
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!--skills-->
+        <section id="projects" class="main-page__projects projects main-page_padding-4em-5em">
+            <h2 class="projects__head head">Projects<span class="head_underline"></span></h2>
+            <div class="projects__gallery gallery wrapper">
+                <div class="gallery__section gallery__section_text-align-and-margin-right gallery__section_negative-margin">
+                    <img src="pr1.jpg" alt="">
+                    <img src="pr2.jpg" alt="">
+                    <img src="pr3.jpg" alt="">
+                    <img src="pr4.jpg" alt="">
+                </div>
+                <div class="gallery__section">
+                    <img src="pr5.jpg" alt="">
+                    <img src="pr6.jpg" alt="">
+                    <img src="pr7.jpg" alt="">
+                    <img src="pr8.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <!--projects-->
+        <section id="education" class="main-page__educ-exp educ-exp main-page_padding-4em-5em">
+            <h2 class="educ-exp__head head">Education And Experience<span class="head_underline"></span></h2>
+
+            <div class="educ-exp__block">
+                <button data-target="education" class="educ-exp__button active"><i class="fas fa-educ-exp fa-graduation-cap"></i>Education</button>
+                <button data-target="experience" class="educ-exp__button"><i class="fas fa-educ-exp fa-business-time"></i>Experience</button>
+            </div>
+
+            <div class="educ-exp__wrapper education wrapper">
+                <div class="education__wrapper">
+                    <div class="education__info item item_margin-bottom-2em">
+                        <h3>Master Of Design</h3>
+                        <p class="item__subtitle">- Sit amet consectetur- 2014</p>
+                        <p class="item__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lobortis mollis arcu, vel vulputate justo.</p>
+                    </div>
+                    <div class="education__info item item_margin-bottom-2em">
+                        <h3>Information Technologies</h3>
+                        <p class="item__subtitle">- Arcu lorem ipsum- 2006</p>
+                        <p class="item__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lobortis mollis arcu, vel vulputate justo.</p>
+                    </div>
+                </div>
+                <div class="education__wrapper">
+                    <div class="education__info item item_margin-bottom-2em">
+                        <h3>Bachelor Degree</h3>
+                        <p class="item__subtitle">- Arcu lorem ipsum- 2010</p>
+                        <p class="item__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lobortis mollis arcu, vel vulputate justo.</p>
+                    </div>
+                    <div class="education__info item item_margin-bottom-2em">
+                        <h3>Diploma in Information</h3>
+                        <p class="item__subtitle">- Arcu lorem ipsum- 2006</p>
+                        <p class="item__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lobortis mollis arcu, vel vulputate justo.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="educ-exp__wrapper experience wrapper" style="display: none">
+                <div class="experience__wrapper">
+                    <div class="experience__info item item_margin-bottom-2em">
+                        <h3>Front End Developer</h3>
+                        <p class="item__subtitle">- 2016-2018 at fringilla</p>
+                        <p class="item__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lobortis mollis arcu, vel vulputate justo.</p>
+                    </div>
+                    <div class="experience__info item item_margin-bottom-2em">
+                        <h3>UI/UX Designer</h3>
+                        <p class="item__subtitle">- 2010-2014 at consectetur</p>
+                        <p class="item__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lobortis mollis arcu, vel vulputate justo.</p>
+                    </div>
+                </div>
+                <div class="experience__wrapper">
+                    <div class="experience__info item item_margin-bottom-2em">
+                        <h3>Creative Designer</h3>
+                        <p class="item__subtitle">- 2014-2016 at adipiscing</p>
+                        <p class="item__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lobortis mollis arcu, vel vulputate justo.</p>
+                    </div>
+                    <div class="experience__info item item_margin-bottom-2em">
+                        <h3>Mobile App Developer</h3>
+                        <p class="item__subtitle">- 2010-2014 at consectetur</p>
+                        <p class="item__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lobortis mollis arcu, vel vulputate justo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--education ans experience-->
+        <section id="contact" class="main-page__contact contact main-page_padding-4em-5em">
+            <h2 class="contact__head head">Get In Touch<span class="head_underline head_underline-color-white"></span></h2>
+            <form action="" method="post" class="contact__form">
+                <div class="contact__wrapper wrapper">
+                    <div class="contact__info">
+                        <label for="user-name">Name *</label><br>
+                        <input class="contact__field" id="user-name" name="user-name" placeholder="Enter Your Name"><br>
+                        <label for="user-email">Email *</label><br>
+                        <input class="contact__field" id="user-email" name="user-email" type="email" placeholder="Enter Your Email Id"><br>
+                    </div>
+                    <div class="contact__info">
+                        <label for="user-message">Send a Message *</label><br>
+                        <textarea class="contact__field" id="user-message" placeholder="Enter Your Message"></textarea>
+                    </div>
+                </div>
+                <input class="contact__submit-button" type="submit" value="Submit">
+            </form>
+        </section>
+        <!--contact-->
+    </main>
+    <footer class="footer">
+        <p>&copy; Creative Profile. All Rights Reserved | Design by w3</p>
+        <a href="#header"><i class="fas fa-arrow-alt-circle-up fa-2x"></i></a>
+    </footer>
+    <script>
+        const defaultClassName = 'educ-exp__button';
+        let buttons = document.querySelectorAll('.' + defaultClassName);
+        let blocks  = document.querySelectorAll('.educ-exp__wrapper');
+
+        buttons.forEach(function(button) {
+            button.addEventListener('click', function () {
+                buttons.forEach(function (btn) {
+                    btn.className = defaultClassName;
+                });
+                button.className += ' active';
+                blocks.forEach(function (block) {
+                    block.style.display = 'none';
+                });
+                let block = document.querySelector('.' + button.getAttribute('data-target'));
+                block.style.display = 'flex';
+            });
+        });
+
+        let menuButton = document.getElementById('menu-button');
+        let hiddenMenu = document.getElementById('hidden-menu');
+
+        menuButton.addEventListener('click', function (event) {
+            if (hiddenMenu.style.display === 'block') {
+                hiddenMenu.style.display = 'none';
+            } else {
+                hiddenMenu.style.display = 'block';
+            }
+        });
+    </script>
+</body>
+</html>

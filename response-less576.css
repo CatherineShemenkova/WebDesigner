@@ -1,0 +1,45 @@
+@media (max-width: 480px) {
+    html {
+        font-size: 12px;
+    }
+
+    header,
+    .main-page {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    .main-page__intro {
+        padding: 2em 3em;
+    }
+
+    .intro__button {
+        padding: 1em 3em;
+    }
+
+    .main-page_padding-4em-5em {
+        padding: 2em;
+    }
+
+    .servise__item {
+        flex-basis: 100%;
+    }
+
+    .item__block {
+        border-right: dotted silver 1px;
+        flex-basis: 35%;
+    }
+
+    .item__block:last-child {
+        border: none;
+    }
+
+    img {
+        width: 120px;
+    }
+
+    .educ-exp__button {
+        margin-bottom: 10px;
+    }
+}
